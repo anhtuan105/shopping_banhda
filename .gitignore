@@ -1,0 +1,9 @@
+*.db
+*.thumb
+demos/
+BanhDa/assets/
+BanhDa/protected/runtime/
+demos/
+!.gitignore
+/nbproject/private/
+.idea/

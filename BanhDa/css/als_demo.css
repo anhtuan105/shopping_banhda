@@ -1,0 +1,147 @@
+
+
+
+
+
+/********************************
+ * generic als elements styling
+ ********************************/
+.als-container {
+	position: relative;
+	width: 100%;
+	margin: 0px auto;
+}
+
+.als-viewport {
+    height: auto !important;
+    width: 700px !important;
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto 0 23px;
+	float: left;
+}
+
+.als-wrapper {
+	position: relative;
+	list-style: none;
+    width: 800px ;
+    height: 170px;
+    left: -182px !important;
+    margin-top: 17px;
+}
+
+.als-item {
+	position: relative;
+	display: block;
+	text-align: center;
+	cursor: pointer;
+	float: left;
+}
+
+.als-prev, .als-next {
+	position: absolute;
+	cursor: pointer;
+	clear: both;
+}
+
+
+/**************************
+ * specific als elements
+ * styling for #lista1
+ **************************/
+
+#lista1 {
+	/*margin: 60px auto 80px auto;*/
+}
+
+#lista1 .als-item {
+	margin: 0px 14px;
+	min-height: 140px;
+	min-width: 128px;
+}
+
+#lista1 .als-item img {
+	position: relative;
+	display: block;
+	vertical-align: middle;
+	margin-bottom: 8px;
+	width: 150px;
+	height: 150px;
+}
+
+#lista1 .als-prev, #lista1 .als-next {
+	top: 112px;
+	width: 15px;
+	height: 22px;
+}
+
+#lista1 .als-prev {
+	left: 7px;
+}
+
+#lista1 .als-next {
+	right: 5px;
+}
+
+/************************
+ * specific als element
+ * styling for #lista2
+ ***********************/
+
+#lista2 {
+	margin-bottom: 80px;
+}
+
+#lista2 .als-item {
+	margin: 10px 0px;
+	min-height: 140px;
+	min-width: 128px;
+}
+
+#lista2 .als-item img {
+	position: relative;
+	display: block;
+	vertical-align: middle;
+	margin-bottom: 8px;
+}
+
+#lista2 .als-prev, #lista2 .als-next {
+	left: 470px;
+	width: 22px;
+	height: 15px;
+}
+
+#lista2 .als-prev {
+	top: -25px;
+}
+
+#lista2 .als-next {
+	bottom: -20px;
+}
+
+#lista2 .als-item {
+	vertical-align: middle;
+}
+
+/*********************
+ * footer style
+ ********************/
+
+#footer {
+	width: 928px;
+	margin: 0 auto;
+	padding: 5px 15px;
+	border: 1px dashed #000;
+	border-radius: 10px;
+}
+
+#footer p {
+	position: relative;
+	margin: 5px auto 10px auto;
+	width: 960px;
+	font-size: 12px;
+}
+
+#footer p.ultimo {
+	margin-bottom: 5px;
+}
