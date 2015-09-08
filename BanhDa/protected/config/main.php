@@ -79,8 +79,8 @@ return array(
 		'db'=>array(
 			'connectionString' => 'mysql:host=localhost;dbname=banhda',
 			'emulatePrepare' => true,
-			'username' => 'otd',
-			'password' => '123456',
+			'username' => 'root',
+			'password' => '',
 			'charset' => 'utf8',
 		),
 		'errorHandler'=>array(
